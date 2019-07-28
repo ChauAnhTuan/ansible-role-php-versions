@@ -43,7 +43,10 @@ before_script:
 
 script:
   # Run tests.
+  - ls -la ..
+  - pwd
   - molecule test
+  - pwd
   - ls -la
 
 notifications:
