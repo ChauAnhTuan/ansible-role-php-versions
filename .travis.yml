@@ -48,6 +48,8 @@ script:
   - molecule test
   - pwd
   - ls -la
+  - ls -la ..
+  - pwd
 
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
